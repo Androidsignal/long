@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+   <LinearLayout
+       android:orientation="horizontal"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+
+       <ImageView
+           android:background="@mipmap/ic_launcher"
+           android:layout_width="50dp"
+           android:layout_height="50dp" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+       <TextView
+           android:hint="seris"
+           android:id="@+id/txtseris"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content" />
+       <TextView
+           android:hint="Longitude"
+           android:id="@+id/txtlong"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content" />
+       <TextView
+           android:hint="letitude"
+           android:id="@+id/txtlet"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content" />
+       <TextView
+           android:hint="locality"
+           android:id="@+id/txtlocality"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content" />
+       <TextView
+           android:hint="nationality"
+           android:id="@+id/txtnationaliti"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content" />
+    </LinearLayout>
+   </LinearLayout>
+</LinearLayout>
